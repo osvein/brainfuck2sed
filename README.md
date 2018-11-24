@@ -2,6 +2,9 @@
 Brainfuck to POSIX sed compiler written entirely in POSIX sed
 
 ## Usage notes
+
+    brainfuck2sed.sed <prog.b >prog.sed && chmod +x prog.sed && ./prog.sed
+
 brainfuck2sed output scripts use the unary numeral system for I/O (the `,` and
 `.` brainfuck commands) with each number (byte/cell) on a separate line. For
 instance, a classic "Hello World!" brainfuck program transcompiled with
